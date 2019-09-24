@@ -3,15 +3,31 @@ body {
 	color: white;
 }
 
-table, tr, td, th {
-	border-collapse: collapse;
-	border: 1px solid;
-	border-color: white;
-	padding: 5px;
-	text-align: center;
+.main {
+	width: 100%;
+	max-width: 700px;
+	margin: 0 auto;
 }
 
-a {
+.navigation {
+}
+
+.navigation__link {
+	color: white;
+	text-decoration: none;
+}
+
+.timetable {
+	border-collapse: collapse;
+}
+
+.timetable__cell {
+	padding: 5px;
+	text-align: center;
+	border: 1px solid;
+}
+
+.timetable__link {
 	color: white;
 	text-decoration: none;
 }
